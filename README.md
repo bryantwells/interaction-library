@@ -1,10 +1,28 @@
-# Manipulating Class with JS
+<style>
+	h2, h3 {
+		margin: 5em 0 2em 0;
+		font-size: 2rem;
+		text-align: center;
+	}
+	table {
+		margin: 3em 0;
+	}
+	.highlighter-rouge {
+		margin: 2em 0;
+	}
+	img {
+		margin: auto;
+		display: block;
+	}
+</style>
+
+## Manipulating Class with JS
 
 Use Javascript to make a webpage more interactive. So far you have been focusing on styling webpages with CSS (aesthetics, visibility, etc). Javascript is a language that allows us to compute and perform actions within a website. Most interactive libraries on the web are based in javascript.
 
 Utilizing Chrome’s javascript console is very important in tracking the behaviour, and debugging your code.  
 
-![console](http://class.vvvvvv.co/files/console.png)  
+![console](assets/console.png)  
 
 ~~~
 console.log('hi);
@@ -13,12 +31,11 @@ console.log('hi);
 We can do things in JS than cannot be done in HTML in CSS, such as arithmatic, storing and comparing values, executing functions, and monitoring events in the DOM (Document Object Model).
 
 Today we are going to skip the [basics](http://jsforcats.com/) and get straight to monitoring and reacting to events in the DOM. 
+ 
   
-  
-  
-## The DOM
+### The DOM
 
-![HTML tree](http://files.bryantwells.com/htmltree.gif)
+![HTML tree](assets/htmltree.gif)
 
 > 
 With the object model, JavaScript gets all the power it needs to create dynamic HTML:  
@@ -34,7 +51,7 @@ With the object model, JavaScript gets all the power it needs to create dynamic 
 
 
 
-## Document Object Methods & Properties  
+### Document Object Methods & Properties  
 
 When a HTML document is loaded into a web browser, it becomes a document object. This object comes along with various properties, and functions (called methods with the goal of manipulating elements within the document object.)
 
@@ -49,7 +66,7 @@ Today we will be focusing on one of the most frequently used document methods:
 
 
 
-## Element Oject Methods & Properties  
+### Element Oject Methods & Properties  
 
 
 Just like the Document Object itself, elements within the Document Object come with some handy methods and properties for use in JS:
@@ -67,7 +84,7 @@ Just like the Document Object itself, elements within the Document Object come w
 
 
 
-## Event Listeners
+### Event Listeners
 
 Event listeners allow us to run a chunk of code, dependent on the behaviour of elements within the Document. We can ‘listen’ to any element for clicks, hovers, scrolls, keyboard presses, media events (play, pause, etc) and much more
 
@@ -92,7 +109,7 @@ element.addEventListener('click', function() {
 
 
 
-## Manipulating CSS Via Javascript  
+### Manipulating CSS Via Javascript  
 
 We can change the classes assigned an element like so:
 
@@ -102,7 +119,7 @@ element.classList.toggle('is-red');
 
 
 
-## Refereneces  
+### Refereneces  
 
 [Document Object Methods & Properties](https://www.w3schools.com/jsref/dom_obj_document.asp)  
 [Element Oject Methods & Properties](https://www.w3schools.com/jsref/dom_obj_all.asp)  
@@ -112,7 +129,7 @@ element.classList.toggle('is-red');
 
 
 
-## Further Reading 
+### Further Reading 
 
 [JS for Cats](http://jsforcats.com/)  
 [Eloquent JS](http://eloquentjavascript.net/00_intro.html)  

@@ -10,7 +10,7 @@
 		margin: 4em 0 3em 0 !important;
 		font-size: 2rem !important;
 		text-align: center !important;
-		font-weight: normal;
+		font-weight: normal !important;
 	}
 	table {
 		margin: 3em 0 !important;

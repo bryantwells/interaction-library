@@ -1,18 +1,24 @@
 <style>
+	.container-lg {
+		max-width: 650px !important;
+	}
+	h1 {
+		text-align: center !important;
+	}
 	h2, h3 {
-		margin: 5em 0 2em 0;
-		font-size: 2rem;
-		text-align: center;
+		margin: 5em 0 3em 0 !important;
+		font-size: 2rem !important;
+		text-align: center !important;
 	}
 	table {
-		margin: 3em 0;
+		margin: 3em 0 !important;
 	}
 	.highlighter-rouge {
-		margin: 2em 0;
+		margin: 2em 0 !important;
 	}
 	img {
-		margin: auto;
-		display: block;
+		margin: auto !important;
+		display: block !important;
 	}
 </style>
 

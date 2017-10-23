@@ -4,11 +4,13 @@
 	}
 	h1 {
 		text-align: center !important;
+		font-weight: normal !important;
 	}
-	h2, h3 {
-		margin: 5em 0 3em 0 !important;
+	h2 {
+		margin: 4em 0 3em 0 !important;
 		font-size: 2rem !important;
 		text-align: center !important;
+		font-weight: normal;
 	}
 	table {
 		margin: 3em 0 !important;
@@ -39,7 +41,7 @@ We can do things in JS than cannot be done in HTML in CSS, such as arithmatic, s
 Today we are going to skip the [basics](http://jsforcats.com/) and get straight to monitoring and reacting to events in the DOM. 
  
   
-### The DOM
+## The DOM
 
 ![HTML tree](assets/htmltree.gif)
 
@@ -57,7 +59,7 @@ With the object model, JavaScript gets all the power it needs to create dynamic 
 
 
 
-### Document Object Methods & Properties  
+## Document Object Methods & Properties  
 
 When a HTML document is loaded into a web browser, it becomes a document object. This object comes along with various properties, and functions (called methods with the goal of manipulating elements within the document object.)
 
@@ -72,7 +74,7 @@ Today we will be focusing on one of the most frequently used document methods:
 
 
 
-### Element Oject Methods & Properties  
+## Element Oject Methods & Properties  
 
 
 Just like the Document Object itself, elements within the Document Object come with some handy methods and properties for use in JS:
@@ -90,7 +92,7 @@ Just like the Document Object itself, elements within the Document Object come w
 
 
 
-### Event Listeners
+## Event Listeners
 
 Event listeners allow us to run a chunk of code, dependent on the behaviour of elements within the Document. We can ‘listen’ to any element for clicks, hovers, scrolls, keyboard presses, media events (play, pause, etc) and much more
 
@@ -115,7 +117,7 @@ element.addEventListener('click', function() {
 
 
 
-### Manipulating CSS Via Javascript  
+## Manipulating CSS Via Javascript  
 
 We can change the classes assigned an element like so:
 
@@ -125,7 +127,7 @@ element.classList.toggle('is-red');
 
 
 
-### Refereneces  
+## Refereneces  
 
 [Document Object Methods & Properties](https://www.w3schools.com/jsref/dom_obj_document.asp)  
 [Element Oject Methods & Properties](https://www.w3schools.com/jsref/dom_obj_all.asp)  
@@ -135,7 +137,7 @@ element.classList.toggle('is-red');
 
 
 
-### Further Reading 
+## Further Reading 
 
 [JS for Cats](http://jsforcats.com/)  
 [Eloquent JS](http://eloquentjavascript.net/00_intro.html)  

@@ -23,6 +23,8 @@
 		display: block !important;
 	}
 </style>
+  
+  
 
 ## Manipulating Class with JS
 
